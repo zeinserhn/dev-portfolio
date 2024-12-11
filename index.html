@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>portfolio</title>
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="navbtn">
+            <a href="#intro" class="logo"style="margin-right:100px; " >ZL</a>
+            <div class="menu-button" id="menuButton">
+                <i class="fas fa-bars"></i> 
+        </div>
+    </div>
+        <nav class="nav-bar" id="navbar" >
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#passion">Passion</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <li><a href="path-to-your-cv.pdf" class="btn-download" download="Zein_CV.pdf">
+                    <i class="fa-solid fa-file" style="margin-right:.3em;"></i> Download CV
+                </a></li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <section id="intro" class="start-section">
+        <div class="start-content">
+            <h1 class="start-title">
+                HI, I'M <span class="highlight">ZEIN</span>
+            </h1>
+            <p class="start-subtitle">
+                I <span class="italic">design</span> and <span class="bold">develop</span> creative websites.
+            </p>
+            <p class="start-description">
+                welcome to my portfolio.Let me show you my work and creative journey.
+            </p>
+            <div class="start-buttons">
+                <a href="#work" class="btn btnWork">View My Work</a>
+                <a href="#contact" class="btn btnContact">Get in Touch</a>
+            </div>
+        </div>
+        <div class="start-image"></div>
+        <a href="#about"><i id='down' class="fa-solid fa-angle-down"></i></a>
+
+    </section>
+
+    <section id="about" class="about-section">
+        <h2>About Me</h2>
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/profile.webp" alt="imageprofile">
+            </div>
+            <div class="about-content">
+                <p class="about-description">
+                    Hi! I'm [Your Name], a passionate web developer with experience in creating responsive and user-friendly websites.
+                    I specialize in [your skills, e.g., front-end development, back-end development, or design], aiming to deliver clean and efficient code for every project.
+                </p>
+                <p class="about-mission">
+                    My mission is to provide impactful solutions that help businesses grow and stand out online.
+                    I believe in continuous learning, creativity, and collaboration to achieve the best results.
+                </p>
+                <a href="#contact" class="btn-about">Contact Me</a>
+
+            </div>
+        </div>
+    </section>
+    <section id="passion" class="passions-section">
+        <div class="passions-header">
+            <h2>WHAT I DO</h2>
+        </div>
+        <div class="passions-grid">
+            <div class="passion-card">
+                <div class="passion-icon">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+                <div>
+                    <h3>Software Development</h3>
+                    <p>I enjoy crafting clean, efficient code and building software that solves real-world problems. I specialize in designing systems that are both scalable and maintainable.</p>
+                </div>
+            </div>
+            <div class="passion-card">
+                <div class="passion-icon">
+                    <i class="fa-solid fa-laptop-code"></i>
+                </div>
+                <h3>Web Development</h3>
+                <p>Designing intuitive, responsive, and visually appealing websites is something I truly enjoy. I aim to combine aesthetics with functionality to create exceptional user experiences.</p>
+            </div>
+            <div class="passion-card">
+                <div class="passion-icon">
+                    <i class="fa-solid fa-shield-halved"></i>
+                </div>
+                <h3>CyberSecuirity</h3>
+                <p>
+                    I have a strong interest in securing digital spaces. I'm dedicated to implementing robust security measures to protect data and ensure privacy.
+                </p>
+              </div>
+        </div>
+    </section>
+    <section id="experience" class="experiences-section">
+        <div class="experience-header">
+            <h2>EXPERIENCES</h2>
+
+            <p>I've been doing web development for about 3 years now, and I'm always eager to learn more in this fast paced industry.</p>
+        </div>
+        <div class="experience-content">
+            <p class="p">
+                <i class="fa-solid fa-circle-check" style="color: #00d4ff; margin-right: 8px;"></i>
+                SOME TECHNOLOGIES I'VE WORKED WITH :
+            </p>
+            <div class="techno-icon">
+                <i class="fa-brands fa-html5"></i>
+                <i class="fa-brands fa-css3-alt"></i>
+                <i class="fa-brands fa-js"></i>
+                <i class="fa-brands fa-vuejs"></i>
+                <i class="fa-brands fa-python"></i>
+                <i class="fa-solid fa-database"></i>
+                <i class="fa-brands fa-linux"></i>
+                <i class="fa-brands fa-php"></i>
+                <i class="fa-brands fa-laravel"></i>
+            </div>
+            <div class="jobintern">
+                <div class="intern">
+                    <p class="p"><i class="fa-solid fa-briefcase" style="color: #00d4ff; margin-right: 8px;"></i> Software Development Intern</p>
+                    <p><b>XYZ Tech Solutions</b> | June 2023 - August 2023</p>
+                    <ul>
+                     <li>Collaborated with a team to develop a real-time chat application using React.js and Firebase.</li>
+                     <li>Improved application performance, reducing load time by 25%.</li>
+                     <li>Implemented secure user authentication using OAuth2.0.</li>
+                    </ul>
+                    <img src="images/intern.png" alt="imageintern">
+                </div>
+                <div class="job">
+                    <p class="p"><i class="fa-solid fa-briefcase" style="color: #00d4ff; margin-right: 8px;"></i> Software Development Intern</p>
+                    <p><b>Tech Innovators Inc.</b> | avril 2024 - present</p>
+                    <ul>
+                        <li>Developed and maintained scalable web applications using React.js and Node.js.</li>
+                        <li>Collaborated with cross-functional teams to implement user-friendly features.</li>
+                        <li>Optimized backend processes, reducing API response time by 35%.</li>
+                        <li>Conducted code reviews to ensure best practices and maintain code quality.</li>
+                    </ul>
+                    <img src="images/job.png" alt="job">
+                </div>
+            </div>
+            <div id="education">
+                <p class="p">
+                    <i class="fa-solid fa-graduation-cap" style="color: #00d4ff; margin-right: 8px;"></i> Education
+                </p>
+                <div class="education-container">
+                  <!-- Education Card -->
+                  <div class="education-card">
+                    <img src="images/LU.png" alt="University Logo" class="university-logo" />
+                    <div class="education-details">
+                      <h3>Bachelor of Science in Computer Science</h3>
+                      <p><b>University:</b> Lebanese University</p>
+                      <p><b>Duration:</b> September 2018 - June 2022</p>
+                      <p><b>Highlights:</b></p>
+                      <ul>
+                        <li>Graduated with honors (GPA: 3.8/4.0).</li>
+                        <li>Completed a thesis on machine learning optimization techniques.</li>
+                        <li>Participated in competitive programming contests, placing in the top 10 regionally.</li>
+                        <li>Active member of the Computer Science Club, organizing hackathons and workshops.</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+            </div>
+              
+        </div>
+    </section>
+
+    <section id="projects" class="projects-section">
+        <div class="projects-header">
+            <h2>My Projects</h2>
+        </div>
+        <div class="projects-grid">
+            <div class="project-card">
+                <img src="images/project1.png" alt="project1">
+                <div class="project-info">
+                    <h3>project title</h3>
+                    <p>A brief description of the project highlighting its purpose and technologies used.</p>
+                    <a href="https://github.com/yourusername/project1">View on Github</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/project2.png" alt="project2">
+                <div class="project-info">
+                    <h3>project title</h3>
+                    <p>A brief description of the project highlighting its purpose and technologies used.</p>
+                    <a href="https://github.com/yourusername/project2">View on Github</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/project3.jpg" alt="project3">
+                <div class="project-info">
+                    <h3>project title</h3>
+                    <p>A brief description of the project highlighting its purpose and technologies used.</p>
+                    <a href="https://github.com/yourusername/project3">View on Github</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/project4.png" alt="project4">
+                <div class="project-info">
+                    <h3>project title</h3>
+                    <p>A brief description of the project highlighting its purpose and technologies used.</p>
+                    <a href="https://github.com/yourusername/project4">View on Github</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/project5.jpg" alt="project5">
+                <div class="project-info">
+                    <h3>project title</h3>
+                    <p>A brief description of the project highlighting its purpose and technologies used.</p>
+                    <a href="https://github.com/yourusername/project5">View on Github</a>
+                </div>
+            </div>
+            <div class="project-card">
+                <img src="images/project6.webp" alt="project6">
+                <div class="project-info">
+                    <h3>project title</h3>
+                    <p>A brief description of the project highlighting its purpose and technologies used.</p>
+                    <a href="https://github.com/yourusername/project6">View on Github</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+     <section id="contact" class="contact-section">
+        <h2>Contact Me</h2>
+        <div class="contact-container">         
+            <div class="contact-details">
+                <p class="contact-description">
+                    Feel free to get in touch with me for collaborations, questions, or just to say hi! I’d love to hear from you.
+                </p>
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
+                <p><i class="fas fa-phone"></i> Phone: <a href="tel:+123456789">+123 456 789</a></p>
+                <p><i class="fas fa-map-marker-alt"></i> Location: Jounieh,Lebanon</p>
+            </div>
+            <div class="contact-map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13233.287050376617!2d35.62414935606479!3d33.98426817091864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x151f40c4257f7eb9%3A0x622d4edf2e7a984!2sJounieh!5e0!3m2!1sen!2slb!4v1732036423488!5m2!1sen!2slb" width="600" height="450" style="border:0;" title="jounier" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+
+         <div class="contact-form">
+             <form id="contactForm">
+                <div class="nameEmail">
+                 <input type="text" id="name" name="name" placeholder="Your Name" rquired><br>
+                 <span class="error" id="nameerror"></span>
+                 <input type="email" id="email" name="email" placeholder="Your Email" required><br>
+                 <span class="error" id="emailerror"></span>
+                </div>
+                 <textarea name="message" id="message" placeholder="Your Message" row='5' required></textarea><br>
+                 <span class="error" id="messageerror"></span>
+                 <button type="submit">Send Message</button><br>
+             </form>
+         </div>
+    </section>
+
+    <footer class="footer-section">
+        <div class="social-icons">
+            <a href="#" class="icon"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="icon"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="icon"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="icon"><i class="fab fa-spotify"></i></a>
+            <a href="#" class="icon"><i class="fab fa-codepen"></i></a>
+            <a href="#" class="icon"><i class="fab fa-github"></i></a>
+            <a href="#" class="icon"><i class="fab fa-linkedin"></i></a>
+        </div>
+
+        <p class="copyright">©zeinserhan2024</p>
+    </footer>
+
+
+</body>
+</html>
